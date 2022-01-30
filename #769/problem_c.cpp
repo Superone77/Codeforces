@@ -51,3 +51,26 @@ void solve(){
     }
     cout<<depth<<endl;
 }
+
+//非常蒙蔽的题，和标题一样觉得很神奇。结论是，只进行操作 1 或者 操作 2，直到进行一次操作 3就可以使得 a = b。
+
+//int main (){
+//    IOS
+//    int t; cin >> t;
+//    while (t --){
+//        int a, b, ans1 = 0, ans2 = 0; cin >> a >> b;
+//        int ta = a, tb = b;
+//        while ((ta | tb) != tb){
+//            ta ++;
+//            ans1 ++;
+//        }
+//        ta = a, tb = b;
+//        int tempb = b * 2 + 100;
+//        while (((ta | tb) != tb) && tb < tempb){
+//            tb ++;
+//            ans2 ++;
+//        }
+//        cout << min (min (ans1 + 1, ans2 + 1), b - a) << endl;
+//    }
+//    return 0;
+//}
